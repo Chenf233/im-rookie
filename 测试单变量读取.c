@@ -7,3 +7,4 @@ int main()
 	printf("%d", x);
 	return 0;
 }
+#输出结果，123变为321
