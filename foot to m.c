@@ -8,3 +8,4 @@ int main()
 	printf("%f尺 %f寸是%lf m",foot, inch,(foot+inch/12)*0.3048);
 	return 0;
 }
+//从英尺转换成米
