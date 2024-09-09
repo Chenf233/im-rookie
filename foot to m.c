@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	double foot;
-	double inch;
-	printf("ÇëÊäÈëÒª×ª»»µÄ³ßÂë£¬Èç/6 7/´ú±í6³ß7´ç");
-	scanf_s("%lf %lf", &foot, &inch);
-	printf("%lf³ß %lf´çÊÇ%lf m",foot, inch,(foot+inch/12)*0.3048);
+	float foot;
+	float inch;
+	printf("è¯·è¾“å…¥è¦è½¬æ¢çš„å°ºç ï¼Œå¦‚/6 7/ä»£è¡¨6å°º7å¯¸");
+	scanf_s("%f %f", &foot, &inch);
+	printf("%få°º %få¯¸æ˜¯%lf m",foot, inch,(foot+inch/12)*0.3048);
 	return 0;
 }
