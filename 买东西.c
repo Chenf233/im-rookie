@@ -7,12 +7,17 @@ int main()
 	scanf_s("%d", &bill);
 	printf("输入支付金额：");
 	scanf_s("%d", &money);
-	if (money >= bill) {
-		printf("应找您:%d", money - bill);
+	while (1) {
+		if (money >= bill) {
+			printf("应找您:%d", money - bill);
+			break;
+		}
+		else {
+			printf("您的钱不够,请重新支付\n");
+			printf("输入支付金额：");
+			scanf_s("%d", &money);
 	}
-	else {
-		printf("您的钱不够");
+	
 	}
 	return 0;
 }
-//目前没看到循环，看到再加
